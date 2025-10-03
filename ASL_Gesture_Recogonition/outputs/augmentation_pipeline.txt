@@ -1,0 +1,5 @@
+
+Data Augmentation Pipeline:
+- Resize to 64x64.
+- Normalization: Rescale to [0,1].
+- Train augmentations: Horizontal flip (50%), rotation (±10%), zoom (±10%), contrast (±20%).

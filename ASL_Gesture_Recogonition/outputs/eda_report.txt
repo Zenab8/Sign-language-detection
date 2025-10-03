@@ -1,0 +1,8 @@
+
+EDA Report:
+- Structure: Train subfolders per class, Test flat <class>_test.jpg.
+- Classes: 29 (A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, del, nothing, space).
+- Train: ~3000 images per class, balanced (std: 0.00).
+- Test: ~1 images per class.
+- Images: 200x200 RGB, dtype: uint8.
+- Challenges: Small test set (~28 images); rely on validation for evaluation.
