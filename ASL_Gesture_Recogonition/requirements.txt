@@ -1,0 +1,8 @@
+Flask>=2.0
+flask-socketio
+eventlet                # recommended for production with SocketIO
+tensorflow              # or tensorflow-cpu if you prefer
+opencv-python
+numpy
+pyautogui               # optional (only for local desktop actions)
+gunicorn                # optional for production
